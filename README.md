@@ -15,15 +15,7 @@ CONFIGURATION
 =============
 
 - Users will still be able to open the app to access FUTON and configure their databases as normal.
-- Restart device after configuring the database.
-
-
-EXISTING BUGS
-=============
-
-- The app will crash after configuration. The settings will still save however the device will need to be rebooted.
-
-
+- Restart device after configuring the database. However, if you configure it via your desktop browser then you won't need to restart your device.
 
 
 

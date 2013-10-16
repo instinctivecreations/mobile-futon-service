@@ -53,10 +53,9 @@ public class MobileFutonActivity extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 		try {
-			//unbindService(couchServiceConnection);
+			unbindService(couchServiceConnection);
 		} catch (IllegalArgumentException e) {
 		}
-		//startService(new Intent(getBaseContext(), myService.class));
 	}
 
 	private final ICouchbaseDelegate mCallback = new ICouchbaseDelegate() {
