@@ -1,7 +1,7 @@
 Android Mobile Futon (Background Service)
 =========================================
 
-Android mobile futon running as a service on device boot up.
+Android mobile futon running as a couchdb android service on device boot up.
 
 INSTALLATION
 ============
