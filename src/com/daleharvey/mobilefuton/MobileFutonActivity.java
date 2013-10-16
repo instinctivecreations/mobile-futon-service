@@ -51,12 +51,12 @@ public class MobileFutonActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		/*super.onDestroy();
+		super.onDestroy();
 		try {
 			//unbindService(couchServiceConnection);
 		} catch (IllegalArgumentException e) {
-		}*/
-		startService(new Intent(getBaseContext(), myService.class));
+		}
+		//startService(new Intent(getBaseContext(), myService.class));
 	}
 
 	private final ICouchbaseDelegate mCallback = new ICouchbaseDelegate() {
