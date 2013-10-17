@@ -19,5 +19,6 @@ CONFIGURATION
 
 
 
-Credits to daleyharvey for providing the base code of Android Mobile Futon online:
+
+Credits to daleharvey for providing the base code of Android Mobile Futon online:
 https://github.com/daleharvey/Android-MobileFuton
